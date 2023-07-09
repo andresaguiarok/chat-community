@@ -9,10 +9,10 @@ Si ejecutas **npm run start** corre con node
 
 ## Para su uso
 Es necesario installar `NODE.JS` & `NODEMON`
+Para el uso del repositorio debe instarlar las siguientes dependencias :
 
-Para el uso del repositorio debe instarlar las siguientes dependencias. :
 ## 1 - `Express`
-El proyecto esta programadoen este framework backend web transigente, escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS
+El proyecto esta programadoen este framework backend web transigente, escrito en JavaScript y alojado dentro del entorno de ejecución Node.JS
 
 ## 2 - `Express-handlebars`\
 
