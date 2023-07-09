@@ -10,7 +10,7 @@ Si ejecutas **npm run start** corre con node\
 ## Para su uso
 
 Para el uso del repositorio debe instarlar las siguientes dependencias. :\
-##1 - `Express`\
+## 1 - `Express`\
 
 
 2 - `Express-handlebars`\
