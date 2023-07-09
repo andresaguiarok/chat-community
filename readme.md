@@ -20,7 +20,7 @@ Es un sistema de plantillas Javascript basado en Mustache Templates. Mantiene se
 Cuenta con su propia carpeta que esta asignada como "views"
 
 ## 3 - `socket.io`
-El servidor socket.io (basado en Node. js) hace de intermediario entre el iframe y el navegador, de forma que cuando el iframe manda un mensaje en el chat notificará al servidor socket.io, y éste a su vez notificará al navegador para que refresque la página y muestre el mensaje del chat
+El servidor socket.io (basado en Node. js) hace de intermediario entre el iframe y el navegador, de forma que cuando el iframe manda un mensaje en el chat notificará al servidor socket.io, y éste a su vez notificará al navegador para que refresque la página y muestre el mensaje del chat\
 Cuenta con su vista en la carpeta "views" y su archivo "chat.handlebars"
 
 ## 4 - `bcrypt`
