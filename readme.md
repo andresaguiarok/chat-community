@@ -50,7 +50,7 @@ Se require dotenv para manejar las variables de entorno con las que se desarroll
 Se encuentra en ".env" , ".env.development" & ".env.production"
 
 ## 10 - `express-session`
-El middleware express-session almacena los datos de sesión en el servidor.\ 
+El middleware express-session almacena los datos de sesión en el servidor.\
 Se encuentra inicializado en `APP.JS`
 
 ## 11 - `jsonwebtoken`
