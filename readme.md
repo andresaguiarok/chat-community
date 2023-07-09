@@ -3,6 +3,7 @@
 Es un proyecto que se esta realizando este año en la cursada de backend en Coderhouse.\
 Este proyecto cuenta con la arquitectura MVC (Modelo-Vista-Controlador) que es un patrón de arquitectura/diseño que separa una aplicación en tres componentes lógicos principales Modelo, Vista y Controlador.\
 
+##
 ## Ejecucion de app
 
 Si ejecutas **npm run dev** corre con nodemon\
