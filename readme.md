@@ -4,8 +4,8 @@ Es un proyecto que se esta realizando este año en la cursada de backend en Code
 
 ## Ejecucion de app
 
-Si ejecutas **npm run dev** corre con nodemon/
-Si ejecutas **npm run start** corre con node/
+Si ejecutas **npm run dev** corre con nodemon\
+Si ejecutas **npm run start** corre con node\
 
 ## Para su uso
 
