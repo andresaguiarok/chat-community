@@ -5,13 +5,13 @@ Es un proyecto que se esta realizando este año en la cursada de backend en Code
 ## Ejecucion de app
 
 Si ejecutas **npm run dev** corre con nodemon\
-Si ejecutas **npm run start** corre con node\
+Si ejecutas **npm run start** corre con node
 
 ## Para su uso
 Es necesario installar `NODE.JS` & `NODEMON`
 
-Para el uso del repositorio debe instarlar las siguientes dependencias. :\
-## 1 - `Express`\
+Para el uso del repositorio debe instarlar las siguientes dependencias. :
+## 1 - `Express`
 El proyecto esta programadoen este framework backend web transigente, escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS
 
 ## 2 - `Express-handlebars`\
