@@ -8,7 +8,7 @@ Si ejecutas **npm run dev** corre con nodemon\
 Si ejecutas **npm run start** corre con node
 
 ## Para su uso
-Es necesario installar `NODE.JS` & `NODEMON`
+Es necesario installar `NODE.JS` & `NODEMON`\
 Para el uso del repositorio debe instarlar las siguientes dependencias :
 
 ## 1 - `Express`
