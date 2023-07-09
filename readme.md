@@ -21,16 +21,16 @@ Cuenta con su propia carpeta que esta asignada como "views."
 
 ## 3 - `socket.io`
 El servidor socket.io (basado en Node. js) hace de intermediario entre el iframe y el navegador, de forma que cuando el iframe manda un mensaje en el chat notificará al servidor socket.io, y éste a su vez notificará al navegador para que refresque la página y muestre el mensaje del chat.\
-Cuenta con su vista en la carpeta "views" y su archivo "chat.handlebars"
+Su archivo es "chat.handlebars" y se encuentra en la carpeta "views"
 
 ## 4 - `bcrypt`
 Bcrypt es una función de hash de contraseñas y derivación de claves para contraseñas basada en el cifrado Blowfish.\
-Su archivo se encuentra en "utils"
+Su archivo es "bcryptHash" y se encuentra en la carpeta "utils"
 
 ## 5 - `commander`
 Commander se ocupa de analizar los argumentos en opciones y argumentos de comando, muestra los errores de uso para los problemas e implementa un sistema de ayuda.\
-Se utiliza en combinacion con las variables de entorno para definir en que entorno vamos a desarrollar.\ 
-Su archivo se encuentra en "utils" y su archivo "commander.js"
+Se utiliza en combinacion con las variables de entorno para definir en que entorno vamos a desarrollar.\
+Su archivo es "commander.js" y se encuentra en la carpeta "utils" 
 
 ## 6 - `connect-mongo`
 Nuestra configuración de session require este modulo para sabes cuando el usuario inicia su session.\
@@ -55,7 +55,7 @@ Se encuentra inicializado en `APP.JS`
 
 ## 11 - `jsonwebtoken`
 JSON Web Token (JWT) es un estándar para transmitir información de forma segura en internet, por medio de archivos en formato JSON.\
-Su archivo "jsonWebToken.js" que se encuentra en la capera "utils" 
+Su archivo "jsonWebToken.js" que se encuentra en la carpeta "utils" 
 
 ## 12 - `mongoose`
 Mongoose es una biblioteca de modelado de datos orientada a objetos (ODM) para MongoDB y Node. js. Administra las relaciones entre los datos, proporciona validación de esquemas y se utiliza para traducir entre objetos en el código y la representación de esos objetos en MongoDB.\
