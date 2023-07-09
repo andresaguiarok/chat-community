@@ -30,4 +30,4 @@ Para el uso del repositorio debe instarlar las siguientes dependencias. :\
 18 - `passport-jwt`\
 19 - `session-file-store`\
 20 - `twilio`\
-21 - `uuid`\
+21 - `uuid`
