@@ -70,13 +70,13 @@ Los archivos con los que se desarrollan se encuentran en las carpetas " dao > mo
 mongoose-paginate-v2 es una biblioteca de paginación que tiene un contenedor de página. El uso principal del complemento es que puede modificar las claves de valor de retorno directamente en la consulta misma para que no necesite ningún código adicional para la transformación.\
 Trabaja en conjunto con el archivo "productModel.js" que se encuentra en la carpetas " dao > models > "
 
-## 15 - `nodemailer`
+## 14 - `nodemailer`
 Es un paquete de distribución de Node. js que podemos integrar a nuestro proyecto y nos permite enviar email a un servidor SMTP en formato texto o HTML.\
 Se desarrolla con variables de entorno que se encuentan en ".env.development" & ".env.production".\
 Cuenta con su propio archivo "nodeMailer.js" que se encuentra en la carpeta "utils".\
 Y trabaja en conjunto con el archivo "cartsController.js" que se ecuentra en la carpeta "controllers".
 
-## 16 - `passport`
+## 15 - `passport`
 Passport es un middleware de autenticación para Node.js. Extremadamente flexible y modular, Passport se puede colocar discretamente en cualquier aplicación web basada en Express.\
 Trabaja en conjunto con varios archivos , los siguientes son:\
 1 - con varibles de entorno en el archivo ".env"\
@@ -86,8 +86,25 @@ Trabaja en conjunto con varios archivos , los siguientes son:\
 5 - en "passportJwt" se utiliza para crear una nueva estrategia y extraer las cookies y se encuentra en la carpeta "passportJwt"\
 6 - en las siguientes rutas: "cartRouterMongo.js" , "productsRouterMongo.js" , "sessionRouter.js" , "ticketRouter.js" , "userRouter.js" y "viewsRouter.js" se utilizan para validar el metodo que se utiliza "passportCall" y autoriza dependiendo el role que tenga el usuario
 
-17 - `passport-github2`\
-18 - `passport-jwt`\
-19 - `session-file-store`\
-20 - `twilio`\
-21 - `uuid`
+## 16 - `passport-github2`
+Estrategia de passport para autenticarse con GitHub usando la API OAuth 2.0.\
+Este módulo le permite autenticarse usando GitHub en sus aplicaciones Node.js. Al conectarse a Passport, la autenticación de GitHub se puede integrar de manera fácil y discreta en cualquier aplicación o marco que admita el middleware de estilo Connect , incluido Express.\
+Su archivo es "passportConfig" que se encuentra en la carpeta "config"
+
+## 17 - `passport-jwt`
+Nos permite crear middleware passport con estrategia de tipo jwt, que permitirá recibir un token vía cabecera y hacer su validación\
+Su archivo es "passportJwt.js" que se encuentra en la carpeta "passportJwt"\
+Su funcion se declara en `APP.JS`\
+
+## 18 - `twilio`
+Es una de las principales plataformas de comunicación en la nube que permite atraer clientes a través de los distintos canales: SMS, voz, video, correo electrónico, WhatsApp y más. Las API de pago por uso permiten a las empresas escalar las comunicaciones de manera fiable.\
+Trabaja en conjunto con varios archivos , los siguientes son:\
+1 - con variables de entorno que se encuentran en los archivos ".env.development" & ".env.production"\
+2 - su archivo es "twilioMessage.js" que se encuentra en la carpeta "utils"\
+3 - trabaja en conjunto con el archivo "userController.js" que se encuentra en la carpeta "controllers"
+
+## 19 - `uuid`
+Un UUID es un identificador único universal que se genera utilizando números aleatorios.
+Se encuentran en archivos como :\
+1 - Su archivo es "productsController.js" que se encuentra en la carpeta "controllers"\
+2 - Su archivo es "cartsController.js" que se encuentra en la carpeta "controllers"
