@@ -3,7 +3,6 @@
 Es un proyecto que se esta realizando este año en la cursada de backend en Coderhouse.\
 Este proyecto cuenta con la arquitectura MVC (Modelo-Vista-Controlador) que es un patrón de arquitectura/diseño que separa una aplicación en tres componentes lógicos principales Modelo, Vista y Controlador.\
 
-##
 ## Ejecucion de app
 
 Si ejecutas **npm run dev** corre con nodemon\
@@ -66,9 +65,19 @@ Los archivos con los que se desarrollan se encuentran en las carpetas " dao > mo
 *4 - ticketModel.js
 *5 - userModel.js
 
-14 - `mongoose-paginate-v2`\
-15 - `nodemailer`\
-16 - `passport`\
+## 13 - `mongoose-paginate-v2`
+mongoose-paginate-v2 es una biblioteca de paginación que tiene un contenedor de página. El uso principal del complemento es que puede modificar las claves de valor de retorno directamente en la consulta misma para que no necesite ningún código adicional para la transformación.\
+Trabaja en conjunto con el archivo "productModel.js" que se encuentra en la carpetas " dao > models > "
+
+## 15 - `nodemailer`
+Es un paquete de distribución de Node. js que podemos integrar a nuestro proyecto y nos permite enviar email a un servidor SMTP en formato texto o HTML.\
+Se desarrolla con variables de entorno que se encuentan en ".env.development" & ".env.production".\
+Cuenta con su propio archivo "nodeMailer.js" que se encuentra en la carpeta "utils".\
+Y trabaja en conjunto con el archivo "cartsController.js" que se ecuentra en la carpeta "controllers".
+
+## 16 - `passport`
+
+
 17 - `passport-github2`\
 18 - `passport-jwt`\
 19 - `session-file-store`\
