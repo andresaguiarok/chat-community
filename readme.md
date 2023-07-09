@@ -82,7 +82,7 @@ Trabaja en conjunto con varios archivos , los siguientes son:\
 1 - con varibles de entorno en el archivo ".env"\
 2 - en `APP.JS` inicializa varias funciones.\
 3 - en "passportConfig.js" se usa para crear una nueva estrategia de git-hub y se encuentra en la carpeta "config"\
-4 - en "passportCall" se utiliza el metodo authenticate y se encuentra en la carpeta "passportJwt"\ 
+4 - en "passportCall" se utiliza el metodo authenticate y se encuentra en la carpeta "passportJwt"\
 5 - en "passportJwt" se utiliza para crear una nueva estrategia y extraer las cookies y se encuentra en la carpeta "passportJwt"\
 6 - en las siguientes rutas: "cartRouterMongo.js" , "productsRouterMongo.js" , "sessionRouter.js" , "ticketRouter.js" , "userRouter.js" y "viewsRouter.js" se utilizan para validar el metodo que se utiliza "passportCall" y autoriza dependiendo el role que tenga el usuario
 
